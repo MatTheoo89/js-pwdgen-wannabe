@@ -8,18 +8,12 @@ Infine scrivi sulla pagina
 
 nomecognomecolorepreferito22*/
 
-// * Le nostre variabili
 
-let nomeUtente;
-let cognomeUtente;
-let colore;
+
+const nomeUtente = prompt('Inserisci il tuo nome');
+const cognomeUtente = prompt('Inserisci il tuo Cognome');
+const colore = prompt('Inserisci il tuo colore preferito');
 let myOutput;
-
-// * inizializzazione variabili
-
-nomeUtente = prompt('Inserisci il tuo nome')
-cognomeUtente = prompt('Inserisci il tuo Cognome')
-colore = prompt('Inserisci il tuo colore preferito')
 
 // ! OUTPUT
 
