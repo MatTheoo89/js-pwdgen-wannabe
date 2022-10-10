@@ -24,14 +24,14 @@ colore = prompt('Inserisci il tuo colore preferito')
 // ! OUTPUT
 
 myOutput = `
-  ${nomeUtente}${cognomeUtente}${colore}22
+<span class="bold red">${nomeUtente}</span><span class="bold blue">${cognomeUtente}</span><span class="bold green">${colore}</span><span class="bold">22</span>
 `;
 
 document.getElementById('password').innerHTML += myOutput;
 
 // ! CONSOLE
 
-console.log(nomeUtente);
-console.log(cognomeUtente);
-console.log(colore);
-console.log(myOutput);
+console.log('nomeUtente ----->',nomeUtente);
+console.log('cognomeUtente ----->',cognomeUtente);
+console.log('colore ----->',colore);
+console.log('myOutput ----->',myOutput);
